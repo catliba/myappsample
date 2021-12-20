@@ -1,0 +1,36 @@
+PS C:\Users\Caleb\CSE\javaPrograms\cse11-pa5-starter-master> .\run.bat ProvidedArrayExamples        
+Tester Library v.3.0
+-----------------------------------
+Tests defined in the class: ProvidedArrayExamples:
+---------------------------
+ProvidedArrayExamples:
+---------------
+new ProvidedArrayExamples:1()
+---------------
+
+Ran 6 tests.
+All tests passed.
+
+--- END OF TEST RESULTS ---
+WARNING: A terminally deprecated method in java.lang.System has been called
+WARNING: System::setSecurityManager has been called by tester.Main (file:/C:/Users/Caleb/CSE/javaPrograms/cse11-pa5-starter-master/lib/tester.jar)
+WARNING: Please consider reporting this to the maintainers of tester.Main
+WARNING: System::setSecurityManager will be removed in a future release
+PS C:\Users\Caleb\CSE\javaPrograms\cse11-pa5-starter-master> .\run.bat MyArrayExamples
+Tester Library v.3.0
+-----------------------------------
+Tests defined in the class: MyArrayExamples:
+---------------------------
+MyArrayExamples:
+---------------
+new MyArrayExamples:1()
+---------------
+
+Ran 18 tests.
+All tests passed.
+
+--- END OF TEST RESULTS ---
+WARNING: A terminally deprecated method in java.lang.System has been called
+WARNING: System::setSecurityManager has been called by tester.Main (file:/C:/Users/Caleb/CSE/javaPrograms/cse11-pa5-starter-master/lib/tester.jar)
+WARNING: Please consider reporting this to the maintainers of tester.Main
+WARNING: System::setSecurityManager will be removed in a future release

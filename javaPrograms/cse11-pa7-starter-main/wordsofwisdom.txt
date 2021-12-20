@@ -1,0 +1,9 @@
+An interface Query that has a boolean matches(String s) method
+Several classes representing different individual queries like Contains, etc
+A method Query readQuery(String q) that takes a query string and produces a Query
+An interface Transform that has a String transform(String s) method
+Several classes representing different individual transformes like ToUpper, etc
+A method Transform readTransform(String t) that takes a transform string for a single transform and produces a Transform
+The built-in Java String split method
+A method boolean matchesAll(Query[] qs, String s) that returns true if all the queries match a given string.
+A method String applyAll(Transform[] ts, String s) that returns the result of applying all of the Transforms in ts to s in order.

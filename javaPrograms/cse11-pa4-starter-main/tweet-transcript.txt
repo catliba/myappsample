@@ -1,0 +1,83 @@
+Tester Library v.3.0
+-----------------------------------
+Tests defined in the class: Tweets:
+---------------------------
+Tweets:
+---------------
+new Tweets:1(
+ this.joe = new User:2(
+  this.username = "joepolitz"
+  this.displayName = "Joe Gibbs Politz"
+  this.followers = 999)
+ this.greg = new User:3(
+  this.username = "gregory_miranda"
+  this.displayName = "Greg Miranda"
+  this.followers = 9999)
+ this.rachel = new User:4(
+  this.username = "Rachel__Lim"
+  this.displayName = "Rachel Lim"
+  this.followers = 1000000)
+ this.t1 = new TextTweet:5(
+  this.contents = "Java 17 has a cool feature called records"
+  this.likes = 77
+  this.author = User:2)
+ this.t2 = new ReplyTweet:6(
+  this.contents = "Hmm I wonder if we could use it for CSE11"
+  this.likes = 12
+  this.author = User:3
+  this.replyTo = TextTweet:5)
+ this.t3 = new ReplyTweet:7(
+  this.contents = "Thought about this more, probably not yet, too new."
+  this.likes = 73
+  this.author = User:3
+  this.replyTo = ReplyTweet:6)
+ this.t4 = new ReplyTweet:8(
+  this.contents = "Yeah, good point. Maybe in 2022."
+  this.likes = 10
+  this.author = User:2
+  this.replyTo = ReplyTweet:7)
+ this.t5 = new ReplyTweet:9(
+  this.contents = "Yeah... I don't want to rewrite the book right this minute"
+  this.likes = 1005
+  this.author = User:4
+  this.replyTo = ReplyTweet:6)
+ this.calvin = new User:10(
+  this.username = "calvin"
+  this.displayName = "Calvin"
+  this.followers = 323583)
+ this.hobbes = new User:11(
+  this.username = "therealhobbes"
+  this.displayName = "Hobbes"
+  this.followers = 925465)
+ this.mother = new User:12(
+  this.username = "mother"
+  this.displayName = "Mother"
+  this.followers = 265787)
+ this.t6 = new TextTweet:13(
+  this.contents = "I've cleaned my room mom"
+  this.likes = 100
+  this.author = User:10)
+ this.t7 = new ReplyTweet:14(
+  this.contents = "Well that was very thoughtful of you"
+  this.likes = 145
+  this.author = User:12
+  this.replyTo = TextTweet:13)
+ this.t8 = new ReplyTweet:15(
+  this.contents = "I did it without you telling me to."
+  this.likes = 145
+  this.author = User:10
+  this.replyTo = ReplyTweet:14)
+ this.t9 = new ReplyTweet:16(
+  this.contents = "This isn't going to be a habit or anything"
+  this.likes = 552
+  this.author = User:10
+  this.replyTo = ReplyTweet:14)
+ this.t10 = new ReplyTweet:17(
+  this.contents = "Tell your mom to put some conditioner in the washer next time"
+  this.likes = 3434
+  this.author = User:11
+  this.replyTo = TextTweet:13))
+---------------
+
+Ran 27 tests.
+All tests passed.
