@@ -1,0 +1,49 @@
+PS C:\Users\Caleb\CSE\javaPrograms\cse11-pa5-starter-master> javac Stats.java 
+PS C:\Users\Caleb\CSE\javaPrograms\cse11-pa5-starter-master> java Stats --product 2 3 4
+24.0
+PS C:\Users\Caleb\CSE\javaPrograms\cse11-pa5-starter-master> java Stats --mean 5 9 7
+7.0
+PS C:\Users\Caleb\CSE\javaPrograms\cse11-pa5-starter-master> java Stats --total 1 9 4
+14.0
+PS C:\Users\Caleb\CSE\javaPrograms\cse11-pa5-starter-master> java Stats --max 9 1 4 0
+9.0
+PS C:\Users\Caleb\CSE\javaPrograms\cse11-pa5-starter-master> java Stats --min 9 1 4 0
+0.0
+PS C:\Users\Caleb\CSE\javaPrograms\cse11-pa5-starter-master> java Stats --mix 3 4 5
+Bad option --mix
+PS C:\Users\Caleb\CSE\javaPrograms\cse11-pa5-starter-master> java Stats --product 1
+1.0
+PS C:\Users\Caleb\CSE\javaPrograms\cse11-pa5-starter-master> java Stats --product 5 6 8.8
+264.0
+PS C:\Users\Caleb\CSE\javaPrograms\cse11-pa5-starter-master> java Stats --product 0 5 7  
+0.0
+PS C:\Users\Caleb\CSE\javaPrograms\cse11-pa5-starter-master> java Stats --mean 7
+7.0
+PS C:\Users\Caleb\CSE\javaPrograms\cse11-pa5-starter-master> java Stats --mean 7 7 7 7 7
+7.0
+PS C:\Users\Caleb\CSE\javaPrograms\cse11-pa5-starter-master> java Stats --mean 7 7 7 7 100
+25.6
+PS C:\Users\Caleb\CSE\javaPrograms\cse11-pa5-starter-master> java Stats --total 6
+6.0
+PS C:\Users\Caleb\CSE\javaPrograms\cse11-pa5-starter-master> java Stats --total 6 10 12 2 
+30.0
+PS C:\Users\Caleb\CSE\javaPrograms\cse11-pa5-starter-master> java Stats --total 0 4 5.5  
+9.5
+PS C:\Users\Caleb\CSE\javaPrograms\cse11-pa5-starter-master> java Stats --max 4 6 8 10
+10.0
+PS C:\Users\Caleb\CSE\javaPrograms\cse11-pa5-starter-master> java Stats --max 4       
+4.0
+PS C:\Users\Caleb\CSE\javaPrograms\cse11-pa5-starter-master> java Stats --max 1 2 3 9.3
+9.3
+PS C:\Users\Caleb\CSE\javaPrograms\cse11-pa5-starter-master> java Stats --min 5
+5.0
+PS C:\Users\Caleb\CSE\javaPrograms\cse11-pa5-starter-master> java Stats --min 5 10 -5 5
+-5.0
+PS C:\Users\Caleb\CSE\javaPrograms\cse11-pa5-starter-master> java Stats --min 5 10     
+5.0
+PS C:\Users\Caleb\CSE\javaPrograms\cse11-pa5-starter-master> java Stats badoption 32  56 7
+Bad option badoption
+PS C:\Users\Caleb\CSE\javaPrograms\cse11-pa5-starter-master> Java Stats ---product 35 35 35
+Bad option ---product
+PS C:\Users\Caleb\CSE\javaPrograms\cse11-pa5-starter-master> java Stats wer
+Bad option wer

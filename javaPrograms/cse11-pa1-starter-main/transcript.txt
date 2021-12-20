@@ -1,0 +1,84 @@
+Perimeter output:
+Tester Library v.3.0
+-----------------------------------
+Tests defined in the class: DesignRecipeExamples:
+---------------------------
+DesignRecipeExamples:
+---------------
+new DesignRecipeExamples:1(
+ this.example1 = 18
+ this.example2 = 40)
+---------------
+No test methods found.
+WARNING: A terminally deprecated method in java.lang.System has been called
+WARNING: System::setSecurityManager has been called by tester.Main (file:/C:/Users/Caleb/CSE/javaPrograms/cse11-pa1-starter-main/tester.jar)
+WARNING: Please consider reporting this to the maintainers of tester.Main
+WARNING: System::setSecurityManager will be removed in a future release
+
+Border area output:
+Tester Library v.3.0
+-----------------------------------
+Tests defined in the class: DesignRecipeExamples:
+---------------------------
+DesignRecipeExamples:
+---------------
+new DesignRecipeExamples:1(
+ this.example1 = 18
+ this.example2 = 40
+ this.example3 = 75
+ this.example4 = 279)
+---------------
+No test methods found.
+WARNING: A terminally deprecated method in java.lang.System has been called
+WARNING: System::setSecurityManager has been called by tester.Main (file:/C:/Users/Caleb/CSE/javaPrograms/cse11-pa1-starter-main/tester.jar)
+WARNING: Please consider reporting this to the maintainers of tester.Main
+WARNING: System::setSecurityManager will be removed in a future release
+
+Converter output:
+Tester Library v.3.0
+-----------------------------------
+Tests defined in the class: DesignRecipeExamples:
+---------------------------
+DesignRecipeExamples:
+---------------
+new DesignRecipeExamples:1(
+ this.example1 = 18
+ this.example2 = 40
+ this.example3 = 75
+ this.example4 = 279
+ this.converter1 = 300
+ this.converter2 = 1500
+---------------
+No test methods found.
+WARNING: A terminally deprecated method in java.lang.System has been called
+WARNING: System::setSecurityManager has been called by tester.Main (file:/C:/Users/Caleb/CSE/javaPrograms/cse11-pa1-starter-main/tester.jar)
+WARNING: Please consider reporting this to the maintainers of tester.Main
+WARNING: System::setSecurityManager will be removed in a future release
+
+Combiner output:
+Tester Library v.3.0
+-----------------------------------
+Tests defined in the class: DesignRecipeExamples:
+---------------------------
+DesignRecipeExamples:
+---------------
+new DesignRecipeExamples:1(
+ this.example1 = 18
+ this.example2 = 40
+ this.example3 = 75
+ this.example4 = 279
+ this.converter1 = 300
+ this.converter2 = 1500
+ this.totalLength1 = 66
+ this.totalLength2 = 149)
+---------------
+No test methods found.
+WARNING: A terminally deprecated method in java.lang.System has been called
+WARNING: System::setSecurityManager has been called by tester.Main (file:/C:/Users/Caleb/CSE/javaPrograms/cse11-pa1-starter-main/tester.jar)
+WARNING: Please consider reporting this to the maintainers of tester.Main
+WARNING: System::setSecurityManager will be removed in a future release
+
+
+
+
+
