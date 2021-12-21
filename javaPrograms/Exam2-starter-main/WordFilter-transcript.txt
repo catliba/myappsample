@@ -1,0 +1,20 @@
+I first got rid of the condition of nothing was put into args, with that first if statement.
+Then I thought about if only one value or no matching values in args. So i used a boolean to take care of that as seen 
+Lastly, I just wrote the code with String method contains.
+
+
+PS C:\Users\Caleb\CSE\javaPrograms\Exam2-starter-main> javac WordFilter.java
+PS C:\Users\Caleb\CSE\javaPrograms\Exam2-starter-main> java WordFilter an apple banana panama orangutan pizza
+banana
+panama
+orangutan
+PS C:\Users\Caleb\CSE\javaPrograms\Exam2-starter-main> java WordFilter not-a-substring apple banana panama
+0 words contained "not-a-substring"
+PS C:\Users\Caleb\CSE\javaPrograms\Exam2-starter-main> java WordFilter app apple banana app panama orangutan pizza
+apple
+app
+PS C:\Users\Caleb\CSE\javaPrograms\Exam2-starter-main> java WordFilter
+Provide at least one command-line argument
+PS C:\Users\Caleb\CSE\javaPrograms\Exam2-starter-main> java WordFilter something
+0 words contained "something"
+PS C:\Users\Caleb\CSE\javaPrograms\Exam2-starter-main> 

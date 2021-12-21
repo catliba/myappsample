@@ -1,0 +1,16 @@
+Tester Library v.3.0
+-----------------------------------
+Tests defined in the class: ExamplesMethods:
+---------------------------
+ExamplesMethods:
+---------------
+new ExamplesMethods:1(
+ this.ringAreaExample1 = 235.61944901923448
+ this.ringAreaExample2 = 0.0
+ this.ringAreaExample3 = 343.4153469455342
+ this.rotateExample1 = "loHel"
+ this.rotateExample2 = "byeGood"
+ this.rotateExample3 = "No"
+ this.rotateExample4 = "Area 59")
+---------------
+No test methods found.

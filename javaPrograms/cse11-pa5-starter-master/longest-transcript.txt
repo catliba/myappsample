@@ -1,0 +1,12 @@
+PS C:\Users\Caleb\CSE\javaPrograms\cse11-pa5-starter-master> javac Longest.java
+PS C:\Users\Caleb\CSE\javaPrograms\cse11-pa5-starter-master> java Longest which argument is the longest
+argument
+PS C:\Users\Caleb\CSE\javaPrograms\cse11-pa5-starter-master> java Longest one two three four
+three
+PS C:\Users\Caleb\CSE\javaPrograms\cse11-pa5-starter-master> java Longest
+PS C:\Users\Caleb\CSE\javaPrograms\cse11-pa5-starter-master> java Longest tie tie hi
+tie
+PS C:\Users\Caleb\CSE\javaPrograms\cse11-pa5-starter-master> java Longest longer is longer but not as long as longest
+longest
+PS C:\Users\Caleb\CSE\javaPrograms\cse11-pa5-starter-master> java Longest hi 444
+444

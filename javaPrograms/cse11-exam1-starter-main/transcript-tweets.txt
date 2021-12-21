@@ -1,0 +1,61 @@
+Tester Library v.3.0
+-----------------------------------
+Tests defined in the class: ExamplesTweets:
+---------------------------
+ExamplesTweets:
+---------------
+new ExamplesTweets:1(
+ this.tweet1 = new Tweet:2(
+  this.author = new User:3(
+   this.name = "Caleb"
+   this.email = "caleb@gmail.com"
+   this.followers = 0)
+  this.content = "I like compsci!"
+  this.tweetId = "24623465747"
+  this.likes = 0
+  this.date = new Date:4(
+   this.month = 5
+   this.day = 14
+   this.year = 2016))
+ this.tweet2 = new Tweet:5(
+  this.author = new User:6(
+   this.name = "UCSD"
+   this.email = "ucsd@ucsd.edu"
+   this.followers = 125413)
+  this.content = "Midterms is this week"
+  this.tweetId = "79797777797"
+  this.likes = 134
+  this.date = new Date:7(
+   this.month = 10
+   this.day = 14
+   this.year = 2020))
+ this.tweet3 = new Tweet:8(
+  this.author = new User:9(
+   this.name = "Bruno Mars"
+   this.email = "marsbars@hotman.com"
+   this.followers = 7777777)
+  this.content = "New album dropping soon"
+  this.tweetId = "352375463"
+  this.likes = 3536476
+  this.date = new Date:10(
+   this.month = 5
+   this.day = 24
+   this.year = 2016))
+ this.tweet4 = new Tweet:11(
+  this.author = new User:12(
+   this.name = "Mother"
+   this.email = "mom@bing.org"
+   this.followers = 875443)
+  this.content = "Happy New Years!"
+  this.tweetId = "3252673453"
+  this.likes = 3
+  this.date = new Date:13(
+   this.month = 1
+   this.day = 1
+   this.year = 2020))
+ this.tweetExample1 = false
+ this.tweetExample2 = true
+ this.tweetExample3 = false
+ this.tweetExample4 = false)
+---------------
+No test methods found.
